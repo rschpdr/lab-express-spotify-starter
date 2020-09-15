@@ -1,0 +1,22 @@
+.background {
+  background-image: url("../images/spotify-background.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-bg {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5rem;
+}
+
+.input {
+  width: 27rem;
+}
+
+.thumbnails {
+  max-width: 290px;
+  max-height: 290px;
+  object-fit: contain;
+}
