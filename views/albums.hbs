@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+
+    {{#each albums}}
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+
+      <figure>
+        <img alt="{{this.name}} Spotify Album Cover" src="{{this.images.1.url}}" />
+        <figcaption>{{this.name}}</figcaption>
+        <a class="btn btn-danger" href="/tracks/{{this.id}}">View Tracks</a>
+      </figure>
+
+    </div>
+
+    {{/each}}
+
+  </div>
+</div>
